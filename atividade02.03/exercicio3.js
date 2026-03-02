@@ -8,7 +8,7 @@ let salarioLiquido
 
 salarioBruto = leia.questionFloat("digite o salario bruto ");
 adicionalNoturno = leia.questionFloat("digite o adicional noturno ");
-horaExtra = leia.questionFloat("difite a hora extra ");
+horaExtra = leia.questionFloat("digite a hora extra ");
 desconto = leia.questionFloat("digite o desconto ");
 
 salarioLiquido = (salarioBruto + adicionalNoturno + (horaExtra *5) - desconto)
